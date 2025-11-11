@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./HomePage.css";
-import destinationsMap from "../../assests/images/river.jpg";
 import vector from "../../../src/assests/images/Circle-heart.png";
 import arrow from "../../../src/assests/images/Icon.svg"
 import logo from "../../../src/assests/images/logo.png"
