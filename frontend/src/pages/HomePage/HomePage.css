@@ -1,0 +1,95 @@
+.top-banner {
+  background-color: #de6b50;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.homepage {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: #fff;
+  max-width: 800px;
+  text-align: left;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link.bons-plan-link {
+  background: #fff1d3;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.navbar .nav-link.call {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+.navbar .nav-link.bons-plan-link:hover {
+  background: #ffe6a7;
+}
+
+.navbar .nav-link.call:hover{
+  background: #ffe6a7;
+}
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.search-section {
+  background-color: #fff;
+}
+.offers-section {
+  background-color: #f8f9fa;
+}
+
+.offer-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.offer-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
